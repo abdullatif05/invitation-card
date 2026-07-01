@@ -142,7 +142,7 @@ const SCENES = [
     caption: 'Abdullatif Khot — a passionate engineer\nwho crafts beautiful things every day…',
     bg: 'linear-gradient(155deg, #0a1a10 0%, #0b3c2a 50%, #061408 100%)',
     accent: '#EBD391',
-    character: { type: 'groom', src: '/images/groom_developer_generated.png' } as CharacterSlot,
+    character: { type: 'groom', src: './images/groom_developer_generated.png' } as CharacterSlot,
     overlay: '⚙️',
   },
   {
@@ -152,7 +152,7 @@ const SCENES = [
     caption: 'With the blessings of both families,\na union chosen by Allah was arranged.',
     bg: 'linear-gradient(160deg, #1a0d07 0%, #3c1f0b 45%, #2a1507 100%)',
     accent: '#D4AF37',
-    character: { type: 'groom', src: '/images/groom_alone_generated.png' } as CharacterSlot,
+    character: { type: 'groom', src: './images/groom_alone_generated.png' } as CharacterSlot,
     overlay: '🤝',
   },
   {
@@ -162,7 +162,7 @@ const SCENES = [
     caption: 'Ayesha Kuwari — with grace, joy\nand her father\'s heartfelt blessing.',
     bg: 'radial-gradient(ellipse at 40% 60%, #1a1035 0%, #2a1a4a 55%, #0d0718 100%)',
     accent: '#EBD391',
-    character: { type: 'bride', src: '/images/bride_alone_generated.png' } as CharacterSlot,
+    character: { type: 'bride', src: './images/bride_alone_generated.png' } as CharacterSlot,
     overlay: '💍',
   },
   {
@@ -172,7 +172,7 @@ const SCENES = [
     caption: 'Mehndi · Paan Khana · Nikah · Walima\nNovember 5 – 8, 2026 • Bhiwandi',
     bg: 'linear-gradient(180deg, #07261a 0%, #0b3c2a 45%, #071a10 100%)',
     accent: '#D4AF37',
-    character: { type: 'couple', src: '/images/couple_cleaned.png' } as CharacterSlot,
+    character: { type: 'couple', src: './images/couple_cleaned.png' } as CharacterSlot,
     overlay: '🎊',
   },
   {
@@ -182,7 +182,7 @@ const SCENES = [
     caption: 'Your presence, prayers & blessings\nwill make our celebration complete.',
     bg: 'radial-gradient(ellipse at 50% 50%, #1a1200 0%, #3c2a07 55%, #1a1200 100%)',
     accent: '#EBD391',
-    character: { type: 'groom', src: '/images/groom_alone_generated.png' } as CharacterSlot,
+    character: { type: 'groom', src: './images/groom_alone_generated.png' } as CharacterSlot,
     overlay: '💌',
   },
   {
@@ -192,7 +192,7 @@ const SCENES = [
     caption: 'Scroll down to explore the schedule,\nvenue details & GPS navigation.',
     bg: 'radial-gradient(ellipse at 50% 40%, #0b3c2a 0%, #07261a 60%, #040f0a 100%)',
     accent: '#D4AF37',
-    character: { type: 'couple', src: '/images/couple_cleaned.png' } as CharacterSlot,
+    character: { type: 'couple', src: './images/couple_cleaned.png' } as CharacterSlot,
     overlay: '✨',
   },
 ];
@@ -375,7 +375,7 @@ export default function HeroStory({ onComplete }: { onComplete: () => void }) {
           {/* Groom photo in loader */}
           <div style={{ marginBottom: '1.5rem', animation: 'loaderFadeUp 1s ease .1s both' }}>
             <StoryCharacter
-              slot={{ type: 'groom', src: '/images/groom_nobg_standing.png' }}
+              slot={{ type: 'groom', src: './images/groom_nobg_standing.png' }}
               accent="#D4AF37"
             />
           </div>

@@ -244,7 +244,7 @@ export default function Home() {
               style={styles.familyImageCol}
             >
               <div className="card-premium card-arched" style={styles.portraitCard}>
-                <img src="/images/islamic_couple.png" alt="Islamic Couple Silhouette Painting" style={styles.portraitImg} />
+                <img src="./images/islamic_couple.png" alt="Islamic Couple Silhouette Painting" style={styles.portraitImg} />
               </div>
             </motion.div>
           </div>
@@ -365,7 +365,7 @@ const styles = {
   heroBg: {
     position: 'absolute' as const,
     inset: '0',
-    backgroundImage: `url('/images/islamic_hero_bg.png')`,
+    backgroundImage: `url('./images/islamic_hero_bg.png')`,
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     zIndex: 0,

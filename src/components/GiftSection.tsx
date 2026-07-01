@@ -78,9 +78,7 @@ export default function GiftSection() {
                   <img src="https://upload.wikimedia.org/wikipedia/commons/e/e1/UPI-Logo-vector.svg" alt="UPI" style={{ height: '16px' }} />
                 </div>
                 <div style={styles.qrContainer}>
-                  <div style={styles.qrPlaceholder}>
-                    <span style={{ color: 'var(--text-muted)' }}>[ Payment QR Code ]<br/><small style={{fontSize: '0.7rem'}}>Replace with actual QR</small></span>
-                  </div>
+                  <img src="./images/qr-code.jpeg" alt="Payment QR Code" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
                 </div>
               </div>
             )}

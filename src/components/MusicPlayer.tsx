@@ -4,11 +4,15 @@ import { Volume2, VolumeX, Music } from 'lucide-react';
 export default function MusicPlayer() {
   const [isPlaying, setIsPlaying] = useState(false);
   const audioRef = useRef<HTMLAudioElement | null>(null);
+  const hasInteracted = useRef(false);
 
-  // Soft romantic wedding piano/instrumental loop URL
-  const audioUrl = 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3';
+  // Reliable Wikimedia Commons wedding track (Canon in D by Kevin MacLeod)
+  const audioUrl = 'https://upload.wikimedia.org/wikipedia/commons/4/4b/Canon_in_D_Major_-_Kevin_MacLeod.ogg';
 
-  const togglePlay = () => {
+  const togglePlay = (e?: React.MouseEvent) => {
+    if (e) e.stopPropagation();
+    hasInteracted.current = true;
+    
     if (!audioRef.current) return;
 
     if (isPlaying) {
@@ -24,10 +28,15 @@ export default function MusicPlayer() {
   // Try to play on user first click/scroll interaction to feel seamless
   useEffect(() => {
     const handleFirstInteraction = () => {
+      if (hasInteracted.current) {
+        cleanup();
+        return;
+      }
       if (audioRef.current && !isPlaying) {
         audioRef.current.play()
           .then(() => {
             setIsPlaying(true);
+            hasInteracted.current = true;
             cleanup();
           })
           .catch(() => {});

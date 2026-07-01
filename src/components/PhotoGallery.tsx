@@ -15,25 +15,25 @@ export default function PhotoGallery() {
   const photos: PhotoItem[] = [
     {
       id: 1,
-      src: '/images/gallery_rings.png',
+      src: './images/gallery_rings.png',
       alt: 'Wedding Rings',
       caption: 'The Promise of Forever',
     },
     {
       id: 2,
-      src: '/images/gallery_venue.png',
+      src: './images/gallery_venue.png',
       alt: 'Reception Venue',
       caption: 'The Setting of Our Celebration',
     },
     {
       id: 3,
-      src: '/images/gallery_cake.png',
+      src: './images/gallery_cake.png',
       alt: 'Wedding Cake',
       caption: 'Sweet Beginnings',
     },
     {
       id: 4,
-      src: '/images/gallery_bouquet.png',
+      src: './images/gallery_bouquet.png',
       alt: 'Bridal Bouquet',
       caption: 'Floral Details of the Day',
     },

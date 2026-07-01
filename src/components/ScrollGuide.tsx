@@ -260,7 +260,7 @@ export default function ScrollGuide() {
   const renderSVGAvatar = (width = 64, height = 64) => {
     return (
       <motion.img
-        src="/images/bot_avatar.png"
+        src="./images/bot_avatar.png"
         alt="Aylif AI Assistant"
         animate={{ y: [0, -3, 0] }}
         transition={{ repeat: Infinity, duration: 3.4, ease: 'easeInOut' }}

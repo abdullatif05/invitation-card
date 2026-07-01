@@ -55,7 +55,7 @@ export default function ScrollSprite({ visible = true }: ScrollSpriteProps) {
           width: '160px',
           height: '240px',
           borderRadius: '16px',
-          backgroundImage: 'url(/images/float_spritesheet.jpg)',
+          backgroundImage: 'url(./images/float_spritesheet.jpg)',
           backgroundSize: '3200px 3600px',
           backgroundPosition: backgroundPosition,
           backgroundRepeat: 'no-repeat',
