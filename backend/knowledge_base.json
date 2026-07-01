@@ -1,0 +1,70 @@
+[
+  {
+    "keywords": ["groom", "husband", "partner", "man", "zubair", "khot", "abdullatif", "groom's name"],
+    "answer": "The groom is Abdullatif Khot, the beloved son of Mr. & Mrs. Zubair Khot. He is marrying Ayesha Kuwari!"
+  },
+  {
+    "keywords": ["bride", "wife", "partner", "woman", "sajid", "kuwari", "ayesha", "bride's name"],
+    "answer": "The bride is Ayesha Kuwari, the beloved daughter of Mr. & Mrs. Sajid Kuwari. She is marrying Abdullatif Khot!"
+  },
+  {
+    "keywords": ["couple", "names", "who", "getting married", "marrying", "match", "pair", "wedding", "invitation"],
+    "answer": "The wedding is for Groom Abdullatif Khot (son of Zubair Khot) and Bride Ayesha Kuwari (daughter of Sajid Kuwari). They are celebrating their union!"
+  },
+  {
+    "keywords": ["parent", "parents", "father", "mother", "family", "families", "zubair", "sajid", "khot", "kuwari"],
+    "answer": "The parents of the groom are Mr. & Mrs. Zubair Khot.\nThe parents of the bride are Mr. & Mrs. Sajid Kuwari.\nBoth families cordially invite you to celebrate this blessed union!"
+  },
+  {
+    "keywords": ["mehndi", "mehendi", "henna", "mehandi", "nov 5", "5 november", "maghrib", "bride's residence"],
+    "answer": "The Mehndi Ceremony is scheduled for Thursday, November 5, 2026, commencing after Maghrib prayers, hosted at the Bride's Residence."
+  },
+  {
+    "keywords": ["paan Khana", "paan Khana ceremony", "nov 6", "6 november", "super tower", "thana road", "bhiwandi"],
+    "answer": "The Paan Khana Ceremony is scheduled for Friday, November 6, 2026, hosted at Super Tower, Thana Road, Bhiwandi - 421302."
+  },
+  {
+    "keywords": ["nikah", "marriage contract", "solemnization", "nov 7", "7 november", "4:00", "garden chapel"],
+    "answer": "The Nikah Ceremony is on Saturday, November 7, 2026, commencing at 4:00 PM at the Garden Hall. Note: No specific address or maps are public for the Nikah venue."
+  },
+  {
+    "keywords": ["walima", "reception", "banquet", "nov 8", "8 november", "stadium", "tawre", "swimming pool", "gauri pada"],
+    "answer": "The Walima Reception is scheduled for Sunday, November 8, 2026, starting at 7:00 PM, hosted at Marriage Ground, Parshuram Tawre Stadium (Opposite Sportive Swimming Pool), New Gauri Pada, Kariwali, Bhiwandi, Maharashtra - 421305."
+  },
+  {
+    "keywords": ["when", "date", "time", "day", "calendar", "schedule", "program", "itinerary", "events"],
+    "answer": "Our 4-day wedding program is:\n• Nov 5 (Thu): Mehndi Ceremony - After Maghrib (Bride's Residence)\n• Nov 6 (Fri): Paan Ceremony - Super Tower, Bhiwandi\n• Nov 7 (Sat): Nikah Ceremony - 4:00 PM (Garden Hall)\n• Nov 8 (Sun): Walima Reception - 7:00 PM (Parshuram Tawre Stadium, Bhiwandi)"
+  },
+  {
+    "keywords": ["venue", "where", "location", "address", "estate", "map", "directions", "place", "stadium", "bhiwandi", "super tower"],
+    "answer": "The two primary venues with GPS navigation are:\n1. Paan Ceremony: Super Tower, Thana Road, Bhiwandi (421302)\n2. Walima Reception: Parshuram Tawre Stadium, New Gauri Pada, Kariwali, Bhiwandi (421305)\n\nBoth locations have interactive maps and route directions available on the Location & Details page!"
+  },
+  {
+    "keywords": ["rsvp", "confirm", "respond", "register", "submit", "going", "attend", "deadline"],
+    "answer": "To RSVP, please fill out the card in the RSVP section of this website. Responses are requested before May 15th, 2026. Attending guests will receive an elegant VIP E-Pass to present at the gate!"
+  },
+  {
+    "keywords": ["stay", "hotel", "accommodation", "lodging", "room", "resort", "booking"],
+    "answer": "We have reserved room blocks with preferred rates for our guests in Thane/Bhiwandi. Use code \"Khot-Kuwari Wedding\" during booking. Details are on our Location page!"
+  },
+  {
+    "keywords": ["shuttle", "bus", "transport", "transit", "pick", "shuttles"],
+    "answer": "Complimentary guest shuttles run continuously from Thane station and local partner hotels directly to the Gauri Pada Walima venue starting at 6:15 PM on Sunday."
+  },
+  {
+    "keywords": ["parking", "valet", "car", "vehicle", "drive", "parking lot"],
+    "answer": "Valet parking will be provided at the Parshuram Tawre Stadium main gates starting at 6:30 PM on Sunday (Walima) and at Super Tower on Friday (Paan)."
+  },
+  {
+    "keywords": ["food", "menu", "diet", "halal", "vege", "vegan", "meal", "allergy", "dinner", "eat"],
+    "answer": "Rest assured, all meals served are 100% Halal. We offer Halal Standard, Halal Vegetarian, Halal Vegan, and Gluten-Free menus. Select your dining options when submitting your RSVP."
+  },
+  {
+    "keywords": ["gift", "registry", "card", "present", "blessing"],
+    "answer": "Your presence and prayers are our greatest gift! If you wish to contribute, a card box will be placed at the welcome lounge table at both ceremonies."
+  },
+  {
+    "keywords": ["dress", "wear", "clothes", "code", "color", "suit", "attire"],
+    "answer": "For our Nikah & Walima, elegant traditional/formal attire is recommended. Emerald Green, Champagne Gold, and Ivory Cream coordinates are highly appreciated!"
+  }
+]
